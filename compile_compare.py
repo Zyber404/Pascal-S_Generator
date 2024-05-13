@@ -1,9 +1,13 @@
 import subprocess
 
 
+print("Generating test.pas ...")
 subprocess.run("build/codegen > input/test.pas", shell=True)
+print("Compiling test.pas to test.c ...")
 subprocess.run("compiler/pascc -i input/test.pas", shell=True)
+print("Compiling test.c ...")
 subprocess.run("gcc -o output/c_test input/test.c", shell=True)
+print("Compiling test.pas ...")
 subprocess.run("fpc -gw3 -ooutput/pas_test input/test.pas", shell=True, capture_output=True)
 c_out = subprocess.run("output/c_test", capture_output=True, text=True)
 pas_out = subprocess.run("output/pas_test", capture_output=True, text=True)

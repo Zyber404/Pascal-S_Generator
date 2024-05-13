@@ -73,3 +73,8 @@ void VariableDeclarationManager::printVariables() {
             << ", Type: " << var.type << ", Value: " << var.value << std::endl;
     }
 }
+
+std::string getRandomType(std::vector<VariableInfo> params)
+{
+    return params[rand() % params.size()].type;
+}

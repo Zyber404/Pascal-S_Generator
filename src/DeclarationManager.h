@@ -21,14 +21,25 @@ public:
     std::string value; // 变量当前值，根据实际情况进行初始化
 };
 
+class VariableFunc {
+public:
+    int level;
+    std::string name;
+    std::string type;
+    std::vector<VariableInfo> params;    // 传入参数
+};
+
 class VariableDeclarationManager {
 private:
     ValueGenerator nameGenerator;
 public:
     std::map<std::string, VariableInfo> variables;
+    std::map<std::string, VariableFunc> variablefuns;
     VariableDeclarationManager();
     std::string declareVariable(int input, int typeIndex=RANDOM_TYPE); // 输入参数决定变量级别
     void printVariables(); // 打印所有变量信息
 };
+
+std::string getRandomType(std::vector<VariableInfo> params);
 
 #endif

@@ -38,6 +38,14 @@
 #define MIN_PRINT 10
 #define MAX_PRINT 30
 
+#define MIN_PARAM 1
+#define MAX_PARAM 3
+
+#define MIN_LOCAL_VAR 1
+#define MAX_LOCAL_VAR 3
+
+#define MIN_FUNC 2
+#define MAX_FUNC 4
 
 
 class StructureGenerator {
@@ -47,9 +55,11 @@ private:
 public:
     std::string declare(int input, int typeIndex = RANDOM_TYPE);
     std::map<std::string, VariableInfo> arrangement(int input);
+    std::map<std::string, VariableInfo> subonly_arrangement(int input);
     int deleteVar(int input, std::string name);
     std::string assignment(int input);
     std::string basicBlock(int input);
+    std::string noCallBasicBlock(int input);
     std::string write(int input);
     // std::string read(int input);
     std::string calculate(int input);
@@ -62,6 +72,8 @@ public:
     std::string congeneration(std::map<std::string, VariableInfo> arran);
     void printVariables();
     std::string nestedForLoop(int input, int depth);
+    std::string declareSubFunc(int input);
+    std::string callSubFunc(int input = 0);
     std::string block(int input);
     // 可以添加更多基本结构的生成函数
 

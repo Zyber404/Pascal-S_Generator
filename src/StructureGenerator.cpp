@@ -2,6 +2,7 @@
 #include "StructureGenerator.h"
 #include <cstdlib>
 #include <ctime>
+#include <algorithm>
 
 // 声明变量
 std::string StructureGenerator::declare(int input, int typeIndex) {
@@ -11,6 +12,17 @@ std::string StructureGenerator::declare(int input, int typeIndex) {
 
 // 获得给定作用域的变量
 std::map<std::string, VariableInfo> StructureGenerator::arrangement(int input) {  
+    std::map<std::string, VariableInfo> arran;
+    for (const auto& item : Declaration.variables) {
+        if (item.second.level == input || item.second.level == 0) {
+            arran.emplace(item);
+        }
+
+    }
+    return arran;
+}
+
+std::map<std::string, VariableInfo> StructureGenerator::subonly_arrangement(int input) {  
     std::map<std::string, VariableInfo> arran;
     for (const auto& item : Declaration.variables) {
         if (item.second.level == input) {
@@ -24,7 +36,7 @@ std::map<std::string, VariableInfo> StructureGenerator::arrangement(int input) {
 int StructureGenerator::deleteVar(int input, std::string name)
 {
     for (const auto& item : Declaration.variables) {
-        if (item.second.level == input && item.second.name == name) {
+        if (item.second.name == name) {
             Declaration.variables.erase(name);
             return 1;
         }
@@ -190,7 +202,7 @@ std::string StructureGenerator::calculate(int input) {
     int cal = rand() % 5;
     // 只有两个变量都是int时，左值才为int，否则为real
     if (par[1].type == "integer" && par[2].type == "integer") {
-        while((cal == 3 && int2 == 0) || (cal == 4 && int2 <= 0)) {
+        while((cal == 3 && (int2 == 0 || (abs(int1) < abs(int2)))) || (cal == 4 && (int2 <= 0 || int1 < int2))) {
             cal = rand() % 5;
         }
         switch (cal) {
@@ -578,13 +590,16 @@ std::string StructureGenerator::basicBlock(int input)
     std::string result = "";
     for(int i = 1; i <= num; i++)
     {
-        int randIndex = rand() % 2;
+        int randIndex = rand() % 3;
         switch(randIndex){
             case 0:
                 result += calculate(input);
                 break;
             case 1:
                 result += assignment(input);
+                break;
+            case 2:
+                result += callSubFunc(input);
                 break;
             default:
                 break;
@@ -756,7 +771,7 @@ std::string StructureGenerator::nestedForLoop(int input, int depth)
     
     std::string upper = std::to_string(rand() % MAX_LOOP + MIN_LOOP);
 
-    result += "for " + var.name + ":=1 to " + upper + " do\nbegin\n";
+    result += "for " + var.name + ":= 1 to " + upper + " do\nbegin\n";
     if (depth > 1) {
         result += basicBlock(input);
         result += nestedForLoop(input, depth - 1);
@@ -765,6 +780,161 @@ std::string StructureGenerator::nestedForLoop(int input, int depth)
         result += block(input);
     }
     result += "end;\n";
+    return result;
+}
+
+// 生成Pascal子函数
+std::string StructureGenerator::declareSubFunc(int input) {
+    // 随机生成子函数的一些属性
+
+    std::string functionName = "SubFunc" + std::to_string(rand() % 1000);
+    int paramCount = rand() % MAX_PARAM + MIN_PARAM; 
+    std::vector<std::string> paramNames;
+    std::vector<VariableInfo> params;
+
+
+    // 构造参数列表，并将参数存入
+    for (int i = 0; i < paramCount; ++i) {
+        VariableInfo par;
+        std::string paramName = Declaration.declareVariable(input);
+        paramNames.push_back(paramName);
+        params.push_back(Declaration.variables[paramName]);
+    }
+    std::string returnType = getRandomType(params);
+
+
+    // 构造函数声明
+    std::string functionDeclaration = "function " + functionName + "(";
+    for (size_t i = 0; i < paramNames.size(); ++i) {
+        functionDeclaration += params[i].name + " : " + params[i].type;
+
+        if (i < paramNames.size() - 1) {
+            functionDeclaration += "; ";
+        }
+    }
+    functionDeclaration += "): " + returnType + ";\nvar\n";
+
+    int locals = rand() % MAX_LOCAL_VAR + MIN_LOCAL_VAR;
+
+    for(int i = 0; i < locals; i++){
+        functionDeclaration += declare(input);
+    }
+
+    // 构造函数体
+    std::string functionBody = "begin\n";
+    for(const auto& item: subonly_arrangement(input)){
+        //不在参数列表中的变量
+        if(paramNames.end() == std::find(paramNames.begin(), paramNames.end(), item.second.name)){
+            functionBody += item.second.name + " := " + item.second.value + ";\n";
+        }
+	}
+    functionBody += block(input);
+
+    std::map<std::string, VariableInfo> arran = arrangement(input);
+    int count = 0;
+    VariableInfo var;
+    for (const auto& item : arran) {
+        if (item.second.type == returnType) {
+            ++count;
+        }
+    }
+    if (count == 0) {
+        return "";
+    }
+    int num = rand() % count + 1;
+    auto it = arran.begin();
+    while (num > 0) {
+        if (it->second.type == returnType) {
+            --num;
+            if (num == 0) { 
+                var = it->second;
+                // break;
+            }
+        }
+        ++it;
+    }
+
+    functionBody += functionName + " := " + var.name + ";\n"; // 假设至少有两个参数
+    functionBody += "end;\n";
+
+    Declaration.variablefuns[functionName] = { input, functionName, returnType, params};
+
+    // 完整的子函数声明和定义
+    std::string subFunction = functionDeclaration + functionBody;
+
+    return subFunction;
+}
+
+std::string StructureGenerator::callSubFunc(int input)
+{
+
+    std::string result = "";
+
+
+    int func_num = Declaration.variablefuns.size();
+    if (func_num == 0) {
+        return "";
+    }
+    auto it = Declaration.variablefuns.begin();
+    std::advance(it, rand() % func_num);
+    VariableFunc func2call = it->second;
+    std::string returnType = func2call.type;
+
+    std::map<std::string, VariableInfo> arran = arrangement(input);
+    int count = 0;
+    VariableInfo ret_var;
+    for (const auto& item : arran) {
+        if (item.second.type == returnType) {
+            ++count;
+        }
+    }
+    if (count == 0) {
+        return "";
+    }
+    int num = rand() % count + 1;
+    auto it_ = arran.begin();
+    while (num > 0) {
+        if (it_->second.type == returnType) {
+            --num;
+            if (num == 0) { 
+                ret_var = it_->second;
+                // break;
+            }
+        }
+        ++it_;
+    }
+
+    result += ret_var.name + " := " + func2call.name + "(";
+
+    for(auto const& item : func2call.params){
+        std::string type = item.type;
+        int count = 0;
+        VariableInfo var;
+        for (const auto& item : arran) {
+            if (item.second.type == type) {
+                ++count;
+            }
+        }
+        if (count == 0) {
+            return "";
+        }
+        int num = rand() % count + 1;
+        auto it = arran.begin();
+        while (num > 0) {
+            if (it->second.type == type) {
+                --num;
+                if (num == 0) { 
+                    var = it->second;
+                    // break;
+                }
+            }
+            ++it;
+        }
+        result += var.name + ", ";
+    }
+    result = result.substr(0, result.size() - 2);
+    result += ");\n";
+
     return result;
 }
 

@@ -21,6 +21,7 @@ int main(void) {
 	name = generator.declareVariable(3);
 	generator.printVariables();*/
 	int num_var = rand() % MAX_VAR + MIN_VAR;
+	int num_func = rand() % MAX_FUNC + MIN_FUNC;
 	int num_assign = rand() % MAX_ASSIGN + MIN_ASSIGN;
 	int num_block = rand() % MAX_BLOCK + MIN_BLOCK;
 	int num_print = rand() % MAX_PRINT + MIN_PRINT;
@@ -37,6 +38,11 @@ int main(void) {
 	for (int i = 0; i < num_var; i++) {
 		std::cout << generator.declare(0);
 	}
+	std::cout << "//---------------start func declare---------------" << std::endl;
+	for (int i = 1; i <= num_func; i++) {
+		std::cout << std::endl;
+		std::cout << generator.declareSubFunc(i)<< std::endl;;
+	}
 	std::cout << "\nbegin" << std::endl;
 	std::cout << "//---------------start init---------------" << std::endl;
 	for(const auto& item: generator.arrangement(0)){
@@ -46,14 +52,9 @@ int main(void) {
 	for (int i = 0; i < num_assign; i++) {
 		std::cout << generator.assignment(0);
 	}
-	/*name = generator.write(0);
-	std::cout << name << std::endl;
-	name = generator.read(1);
-	std::cout << name << std::endl;*/
 	std::cout << "//---------------start calc---------------" << std::endl;
 	for (int i = 0; i < num_block; i++) {
 		std::cout << generator.block(0);
-		// std::cout << generator.nestedForLoop(0, 3);
 	}
 	
 	std::cout << "//---------------start print---------------" << std::endl;
@@ -61,7 +62,7 @@ int main(void) {
 		std::cout << generator.write(0);
 	}
 
-	std::cout << "end.";
+	std::cout << "end."<< std::endl;
 	// std::cout << "---------------print results:---------------" << std::endl;
 	// generator.printVariables();
 	
