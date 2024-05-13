@@ -31,6 +31,9 @@ int main(void) {
 	std::cout << "//---------------start declare---------------" << std::endl;
 	std::cout << "\nvar" << std::endl;
 	std::string name;
+	for (int i = 0; i < num_block * MAX_FOR_DEPTH; i++) {
+		std::cout << generator.declare(0, INT_TYPE);
+	}
 	for (int i = 0; i < num_var; i++) {
 		std::cout << generator.declare(0);
 	}
@@ -50,6 +53,7 @@ int main(void) {
 	std::cout << "//---------------start calc---------------" << std::endl;
 	for (int i = 0; i < num_block; i++) {
 		std::cout << generator.block(0);
+		// std::cout << generator.nestedForLoop(0, 3);
 	}
 	
 	std::cout << "//---------------start print---------------" << std::endl;

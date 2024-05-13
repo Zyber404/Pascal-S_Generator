@@ -26,7 +26,10 @@
 
 
 #define MIN_FOR_DEPTH 1
-#define MAX_FOR_DEPTH 5
+#define MAX_FOR_DEPTH 3
+
+#define MIN_LOOP 1
+#define MAX_LOOP 3
 
 
 #define MIN_BLOCK 5
@@ -42,8 +45,9 @@ private:
     ValueGenerator nameGenerator;
     VariableDeclarationManager Declaration;
 public:
-    std::string declare(int input);
+    std::string declare(int input, int typeIndex = RANDOM_TYPE);
     std::map<std::string, VariableInfo> arrangement(int input);
+    int deleteVar(int input, std::string name);
     std::string assignment(int input);
     std::string basicBlock(int input);
     std::string write(int input);
@@ -57,7 +61,7 @@ public:
     std::string nestedIfStatement(int input, int depth);
     std::string congeneration(std::map<std::string, VariableInfo> arran);
     void printVariables();
-    std::string nestedForLoop(int input);
+    std::string nestedForLoop(int input, int depth);
     std::string block(int input);
     // 可以添加更多基本结构的生成函数
 

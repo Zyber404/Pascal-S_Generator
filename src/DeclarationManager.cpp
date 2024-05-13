@@ -8,7 +8,7 @@ VariableDeclarationManager::VariableDeclarationManager()
 {
 }
 
-std::string VariableDeclarationManager::declareVariable(int input) {
+std::string VariableDeclarationManager::declareVariable(int input, int typeIndex) {
     std::string name; // 生成随机变量名
     int name_length = rand() % (MAX_NAME_LENGTH + 1);
 
@@ -31,8 +31,9 @@ std::string VariableDeclarationManager::declareVariable(int input) {
         for (int i = 1; i <= name_length + 1; i++)
             name += nameGenerator.generateRandomData(GEN_CHAR);
     }
-
-    int typeIndex = rand() % 4; // 随机选择类型
+    if (typeIndex == RANDOM_TYPE) {
+        typeIndex = rand() % 4;
+    }
     std::string type;
     std::string initValue;
     switch (typeIndex) {

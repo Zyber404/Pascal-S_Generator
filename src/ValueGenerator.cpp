@@ -10,7 +10,7 @@ std::string ValueGenerator::generateRandomData(int input) {
     int type = input % 4; // 用输入值对4取模来决定生成哪种数据类型
     switch (type) {
     case GEN_INT: // 对应整型 integer
-        return std::to_string(rand() % MAX_INT + 1); // 返回一个0到MAX_INT之间的随机整数
+        return std::to_string(rand() % MAX_INT + 1); // 返回一个1到MAX_INT之间的随机整数
     case GEN_CHAR: // 对应实数 char
         return (rand() % 2 == 0) ? std::string(1, 'A' + (rand() % 26)) : std::string(1, 'a' + (rand() % 26)); // 生成A-Z或a-z之间的字符
     case GEN_BOOL: // 对应布尔型 boolean

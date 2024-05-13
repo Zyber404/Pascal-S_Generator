@@ -10,6 +10,8 @@
 #include <iostream>
 
 #define MAX_NAME_LENGTH 10
+#define RANDOM_TYPE 10
+#define INT_TYPE 0
 
 class VariableInfo {
 public:
@@ -25,7 +27,7 @@ private:
 public:
     std::map<std::string, VariableInfo> variables;
     VariableDeclarationManager();
-    std::string declareVariable(int input); // 输入参数决定变量级别
+    std::string declareVariable(int input, int typeIndex=RANDOM_TYPE); // 输入参数决定变量级别
     void printVariables(); // 打印所有变量信息
 };
 

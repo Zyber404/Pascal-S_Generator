@@ -4,8 +4,8 @@
 #include <ctime>
 
 // 声明变量
-std::string StructureGenerator::declare(int input) {
-    std::string name = Declaration.declareVariable(input);
+std::string StructureGenerator::declare(int input, int typeIndex) {
+    std::string name = Declaration.declareVariable(input, typeIndex);
     return Declaration.variables[name].name + ":" + Declaration.variables[name].type + ";\n";
 }
 
@@ -19,6 +19,17 @@ std::map<std::string, VariableInfo> StructureGenerator::arrangement(int input) {
 
     }
     return arran;
+}
+
+int StructureGenerator::deleteVar(int input, std::string name)
+{
+    for (const auto& item : Declaration.variables) {
+        if (item.second.level == input && item.second.name == name) {
+            Declaration.variables.erase(name);
+            return 1;
+        }
+    }
+    return 0;
 }
 
 // 赋值
@@ -116,8 +127,8 @@ std::string StructureGenerator::calculate(int input) {
     VariableInfo par[3];
     std::map<std::string, VariableInfo> arran = arrangement(input);
     if (arran.empty()) {
-        std::cout << "The map is empty." << std::endl;
-        return " ";
+        // std::cout << "The map is empty." << std::endl;
+        return "";
     }
     int count = 0;
     for (const auto& item : arran) {
@@ -126,8 +137,8 @@ std::string StructureGenerator::calculate(int input) {
         }
     }
     if (count == 0) {
-        std::cout << "calc error: no int or real var" << std::endl;
-        return " ";
+        // std::cout << "calc error: no int or real var" << std::endl;
+        return "";
     }
     //找三个int或real类型的变量
     for (int i = 0; i < 3; i++) {
@@ -179,7 +190,7 @@ std::string StructureGenerator::calculate(int input) {
     int cal = rand() % 5;
     // 只有两个变量都是int时，左值才为int，否则为real
     if (par[1].type == "integer" && par[2].type == "integer") {
-        while((cal == 3 && int2 == 0) || (cal == 4 && int2 == 0)) {
+        while((cal == 3 && int2 == 0) || (cal == 4 && int2 <= 0)) {
             cal = rand() % 5;
         }
         switch (cal) {
@@ -190,7 +201,7 @@ std::string StructureGenerator::calculate(int input) {
         case 4: int0 = int1 % int2; break;
         }
         par[0].value = std::to_string(int0);
-        // par[0].type = "integer";
+        par[0].type = "integer";
     }
     else {
         while((cal == 3 && real2 == 0 || cal == 4)) {
@@ -204,7 +215,7 @@ std::string StructureGenerator::calculate(int input) {
         case 3: real0 = real1 / real2; break;
         }
         par[0].value = std::to_string(real0);
-        // par[0].type = "real";
+        par[0].type = "real";
     }
     // Declaration.variables[par[0].name].type = par[0].type;
     // Declaration.variables[par[0].name].value = par[0].value;
@@ -228,6 +239,9 @@ std::string StructureGenerator::calculate(int input) {
     case 2: result = par[0].name + " := " + par[1].name + " * " + name2 + ";\n"; break;
     case 3: {
         if ( par[1].type == "integer" && par[2].type == "integer") {
+            if(int2 == 0) {
+                std::cout<< "DIVIDE BY ZERO ERROR!!!!" << std::endl;
+            }
             result = par[0].name + " := " + par[1].name + " div " + name2 + ";\n";
         }
         else {
@@ -698,7 +712,7 @@ std::string StructureGenerator::nestedIfStatement(int input, int depth) {
         result += " " + nestedIfStatement(input, depth - 1);
     }
     else {
-        result += "\nbegin\n" + basicBlock(input) + "end;\n";
+        result += "\nbegin\n" + block(input) + "end;\n";
     }
 
     // 返回完整的 `if-else` 语句
@@ -711,14 +725,59 @@ void StructureGenerator::printVariables() {
     Declaration.printVariables();
 }
 
+std::string StructureGenerator::nestedForLoop(int input, int depth)
+{
+    std::string result = "";
+    std::map<std::string, VariableInfo> arran = arrangement(input);
+    int count = 0;
+    VariableInfo var;
+    for (const auto& item : arran) {
+        if (item.second.type == "integer") {
+            ++count;
+        }
+    }
+    if (count == 0) {
+        return "";
+    }
+    //找一个int类型的变量
+    int num = rand() % count + 1;
+    auto it = arran.begin();
+    while (num > 0) {
+        if (it->second.type == "integer") {
+            --num;
+            if (num == 0) { // 找到了第num个int类型的变量
+                var = it->second;
+                deleteVar(input, var.name); //将其从map中删除,因为for循环index不能被赋值
+                // break;
+            }
+        }
+        ++it;
+    }
+    
+    std::string upper = std::to_string(rand() % MAX_LOOP + MIN_LOOP);
+
+    result += "for " + var.name + ":=1 to " + upper + " do\nbegin\n";
+    if (depth > 1) {
+        result += basicBlock(input);
+        result += nestedForLoop(input, depth - 1);
+    }
+    else {
+        result += block(input);
+    }
+    result += "end;\n";
+    return result;
+}
+
 std::string StructureGenerator::block(int input)
 {
-    int index = rand() % 2;
+    int index = rand() % 3;
     switch (index) {
     case 0:
         return basicBlock(input);
     case 1:
         return nestedIfStatement(input, rand() % MAX_IF_DEPTH + MIN_IF_DEPTH);
+    case 2:
+        return nestedForLoop(input, rand() % MAX_FOR_DEPTH + MIN_FOR_DEPTH);
     default:
         return "";
     }
