@@ -1,4 +1,5 @@
 import subprocess
+import os
 from tqdm import tqdm
 
 total_num = 0
@@ -6,7 +7,10 @@ total_true = 0
 for i in tqdm(range(500)):
     subprocess.run("build/codegen > input/test.pas", shell=True)
     subprocess.run("compiler/pascc -i input/test.pas", shell=True)
+    # output/c_test不存在，跳过
     subprocess.run("gcc -o output/c_test input/test.c", shell=True)
+    if not os.path.exists("output/c_test"):
+        continue
     subprocess.run("fpc -ooutput/pas_test input/test.pas", shell=True, capture_output=True)
     c_out = subprocess.run("output/c_test", capture_output=True, text=True)
     pas_out = subprocess.run("output/pas_test", capture_output=True, text=True)

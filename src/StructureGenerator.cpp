@@ -7,6 +7,9 @@
 // 声明变量
 std::string StructureGenerator::declare(int input, int typeIndex) {
     std::string name = Declaration.declareVariable(input, typeIndex);
+    if(typeIndex == INDEX_INT) {
+        return name + ":integer" + ";\n";
+    }
     return Declaration.variables[name].name + ":" + Declaration.variables[name].type + ";\n";
 }
 
@@ -35,9 +38,9 @@ std::map<std::string, VariableInfo> StructureGenerator::subonly_arrangement(int 
 
 int StructureGenerator::deleteVar(int input, std::string name)
 {
-    for (const auto& item : Declaration.variables) {
+    for (const auto& item : Declaration.index_variables) {
         if (item.second.name == name) {
-            Declaration.variables.erase(name);
+            Declaration.index_variables.erase(name);
             return 1;
         }
     }
@@ -743,7 +746,7 @@ void StructureGenerator::printVariables() {
 std::string StructureGenerator::nestedForLoop(int input, int depth)
 {
     std::string result = "";
-    std::map<std::string, VariableInfo> arran = arrangement(input);
+    std::map<std::string, VariableInfo> arran = Declaration.index_variables;
     int count = 0;
     VariableInfo var;
     for (const auto& item : arran) {
@@ -787,7 +790,7 @@ std::string StructureGenerator::nestedForLoop(int input, int depth)
 std::string StructureGenerator::declareSubFunc(int input) {
     // 随机生成子函数的一些属性
 
-    std::string functionName = "SubFunc" + std::to_string(rand() % 1000);
+    std::string functionName = "SubFunc" + std::to_string(input);
     int paramCount = rand() % MAX_PARAM + MIN_PARAM; 
     std::vector<std::string> paramNames;
     std::vector<VariableInfo> params;

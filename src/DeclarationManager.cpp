@@ -53,6 +53,11 @@ std::string VariableDeclarationManager::declareVariable(int input, int typeIndex
         type = "real";
         initValue = nameGenerator.generateRandomData(GEN_REAL);
         break;
+    case 4: 
+        type = "integer";
+        initValue = nameGenerator.generateRandomData(GEN_INT);
+        index_variables[name] = { input, name, type, initValue};
+        return name;
     default: type = "integer"; // 默认为int类型
     }
 
@@ -61,7 +66,7 @@ std::string VariableDeclarationManager::declareVariable(int input, int typeIndex
     //     (type == "boolean" ? "FALSE" : "' '");
 
     // 将变量信息存入表中
-    variables[name] = { input, name, type, initValue };
+    variables[name] = { input, name, type, initValue};
     return name;
 }
 

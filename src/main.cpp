@@ -33,7 +33,7 @@ int main(void) {
 	std::cout << "\nvar" << std::endl;
 	std::string name;
 	for (int i = 0; i < num_block * MAX_FOR_DEPTH; i++) {
-		std::cout << generator.declare(0, INT_TYPE);
+		std::cout << generator.declare(0, INDEX_INT);
 	}
 	for (int i = 0; i < num_var; i++) {
 		std::cout << generator.declare(0);

@@ -2,656 +2,853 @@ program main;
 //---------------start declare---------------
 
 var
-u54rpqaubbi:integer;
-b75hgjbbwislh:integer;
-h71hbrrygsh:integer;
-u57hfovahofjgi:integer;
-t59beijbw:integer;
-i7zj:integer;
-k98fykmfcx:integer;
-g89qfwahxqkk:integer;
-t92mkgrjs:integer;
-c100ociib:integer;
-n84zmiszvsb:integer;
-n91c:integer;
-g32vkfaei:integer;
-x13av:integer;
-f13weibv:integer;
-x14hvgthtilzk:integer;
-o100xcwdrlly:integer;
-o71ukap:integer;
-o36jxn:integer;
-f99djmcoocgcd:integer;
-b41rcwzhinxgd:integer;
-o69sowktvh:integer;
-c58ui:integer;
-m3clhpsdjcum:integer;
-q20r:char;
-i44dppwuv:char;
-n76ejyd:boolean;
-o48d:boolean;
-r87pvdwtez:real;
-i26xb:char;
-t76ivbncuooz:real;
-q16mnq:real;
-s37ayaltkbqn:real;
-l21uh:boolean;
-j49of:boolean;
-n26jdcxox:char;
-i55wxw:char;
-v31kjtfetloir:real;
-w77aqgfqbjc:integer;
-o47lsefiqvbr:boolean;
-l37pimsvkbwxk:integer;
-d44vjtvyvi:char;
-k89heqaz:real;
-m33hfqbhaiiuvh:char;
-h50zrrko:integer;
-q15a:real;
-u55can:real;
-z69me:char;
-y47z:boolean;
-e94gjnmhmzzxne:real;
-s44wdi:char;
-y33kleqaplp:real;
-e50mt:boolean;
-s20xpeok:char;
-y35axncjjzc:char;
-t63bkkans:char;
-g72jio:real;
-o40plswjhshlpz:char;
+e15ifzhl:integer;
+m70fmuo:integer;
+b78flqkljlwk:integer;
+f81kkfqv:integer;
+p100iovl:integer;
+l72qdip:integer;
+v97oxgtayki:integer;
+o92ouwoxhu:integer;
+b17snn:integer;
+x49bynwpzdevia:integer;
+l63icmcygqdhr:integer;
+n38jhsf:integer;
+p66znl:integer;
+r42kijl:integer;
+s31zkswbeoelsd:integer;
+o81iplkmtgmwaq:integer;
+a96hmynmfve:integer;
+q99vjlngswrdj:integer;
+i6mglbzl:integer;
+m55ihfqzisvmad:integer;
+p33njfqzxey:integer;
+j35nwyngdwibpo:integer;
+g74lwyctejom:integer;
+d17lzexsfgdv:integer;
+p70dwmsmiai:integer;
+q90sxuwypowk:integer;
+n56cwmxekip:integer;
+j35aoyvfreodw:boolean;
+z68odrduzszho:boolean;
+t86kljo:integer;
+p4ugvxiygy:real;
+t51shd:real;
+n84a:real;
+p55ugoch:char;
+e39xvmoa:real;
+m37sl:integer;
+r95xv:real;
+d99bsl:real;
+f92knjkvqpmd:char;
+i46dcc:boolean;
+l35vtquz:real;
+c52mflxtrap:char;
+y90yim:char;
+l89vfdf:integer;
+e80xccrjgd:char;
+d3hphrpmazph:boolean;
+p58oraznavcp:char;
+n73tnazwsum:char;
+v26ahjls:integer;
+s70oevaz:boolean;
+g19vrdgxxpfcv:real;
+y9bfvg:boolean;
+r37pmgma:char;
+z99cmaiz:real;
+e21qlzkeo:real;
+o58tyh:integer;
+w2bjzjvwc:char;
 //---------------start func declare---------------
 
-function SubFunc141(q62ihbbqxv : char): char;
+function SubFunc1(s65vd : char; r41cfqmnizznz : char; d84pwoaushkpe : char): char;
 var
-j80bebecdojy:integer;
-g40xrz:real;
-q100nxyznu:integer;
+u21nqxmlv:real;
 begin
-g40xrz := 7.759922;
-j80bebecdojy := 65;
-q100nxyznu := 88;
-for l37pimsvkbwxk:= 1 to 1 do
+u21nqxmlv := 73.569264;
+if  (s65vd = f92knjkvqpmd) or (r41cfqmnizznz = d84pwoaushkpe) and (z99cmaiz <= l35vtquz) and (s65vd = y90yim) or (p4ugvxiygy >= o58tyh) or (w2bjzjvwc = e80xccrjgd) and (v26ahjls >= d99bsl) and d3hphrpmazph and (e80xccrjgd = f92knjkvqpmd) then
 begin
-q15a := i7zj - 97;
-e94gjnmhmzzxne := o69sowktvh + 2;
-q62ihbbqxv := 'i';
-q100nxyznu := 7;
-for x13av:= 1 to 2 do
-begin
-s37ayaltkbqn := u54rpqaubbi / 5.369946;
-k98fykmfcx := u54rpqaubbi mod c100ociib;
-j80bebecdojy := 32;
-i7zj := 98;
-m33hfqbhaiiuvh := 'q';
-y33kleqaplp := u54rpqaubbi - h50zrrko;
-for o100xcwdrlly:= 1 to 2 do
-begin
-if  (y33kleqaplp < s37ayaltkbqn) or (t59beijbw >= n91c) and (r87pvdwtez <= s37ayaltkbqn) or (g32vkfaei = u55can) or (v31kjtfetloir >= h71hbrrygsh) or (j80bebecdojy <= k89heqaz) or (i7zj < n91c) and (c100ociib = o36jxn) and (o71ukap <= n91c) then
-begin
-k89heqaz := o71ukap + 67.349327;
-t59beijbw := 4;
-q16mnq := h50zrrko * q15a;
-q100nxyznu := t92mkgrjs * 31;
-w77aqgfqbjc := w77aqgfqbjc + c58ui;
-y33kleqaplp := 47.639524;
+d99bsl := 75.839242;
+f92knjkvqpmd := 'X';
+r41cfqmnizznz := 'k';
+v26ahjls := 48;
+g19vrdgxxpfcv := 60.959390;
+r37pmgma := 'M';
+r95xv := u21nqxmlv - 43.459565;
 end
-else if  (i44dppwuv = i26xb) or (b41rcwzhinxgd >= n91c) or (i7zj = t92mkgrjs) or (g89qfwahxqkk <> k89heqaz) and (h50zrrko >= s37ayaltkbqn) then
+else if  (z99cmaiz > e39xvmoa) or (v26ahjls >= l35vtquz) and (m37sl < r95xv) or (e80xccrjgd = e80xccrjgd) or (w2bjzjvwc = s65vd) and (s70oevaz and y9bfvg) or (l89vfdf <> n84a) then
 begin
-r87pvdwtez := j80bebecdojy - 4;
-k89heqaz := 73.139269;
-t76ivbncuooz := h71hbrrygsh + k98fykmfcx;
-q62ihbbqxv := 'Y';
-q62ihbbqxv := 'e';
+t51shd := 3.399966;
+d99bsl := r95xv * 85;
+d99bsl := l89vfdf - 5.379946;
+l35vtquz := u21nqxmlv / 14.919851;
 end
-else if  (t76ivbncuooz <> n84zmiszvsb) and (c100ociib > h50zrrko) and (u57hfovahofjgi < j80bebecdojy) or (k89heqaz <= q100nxyznu) and (h50zrrko >= h50zrrko) and (h50zrrko <> o69sowktvh) and (n26jdcxox = z69me) then
+else if  d3hphrpmazph or (l35vtquz <> g19vrdgxxpfcv) and (g19vrdgxxpfcv > u21nqxmlv) and (l35vtquz <= v26ahjls) and (t51shd <> u21nqxmlv) then
 begin
-n84zmiszvsb := 76;
-o36jxn := q100nxyznu - 69;
-f99djmcoocgcd := o71ukap * 97;
-q16mnq := b75hgjbbwislh + k89heqaz;
+m37sl := 56;
+s65vd := 'P';
+r95xv := 70.119299;
+n84a := 40.989590;
+t51shd := o58tyh / 56.729433;
+z68odrduzszho := TRUE;
+z99cmaiz := 75.789242;
 end
-else if  (g89qfwahxqkk <= h50zrrko) or (s44wdi = d44vjtvyvi) and (s44wdi = i55wxw) then
+else if  (r41cfqmnizznz = f92knjkvqpmd) and (w2bjzjvwc = r41cfqmnizznz) and (e80xccrjgd = y90yim) then
 begin
-o36jxn := o36jxn * 86;
-q15a := b75hgjbbwislh - 50;
-u55can := i7zj div 29;
+l35vtquz := g19vrdgxxpfcv / 49.699503;
+f92knjkvqpmd := 'k';
+u21nqxmlv := n84a + 44.789552;
+n84a := p4ugvxiygy + 10.719893;
 end
-else if  (q15a <> u55can) or (b41rcwzhinxgd <= q16mnq) and (k89heqaz <> n84zmiszvsb) or (u57hfovahofjgi < m3clhpsdjcum) then
+else if  (l35vtquz <= g19vrdgxxpfcv) and (v26ahjls >= r95xv) or (n73tnazwsum = w2bjzjvwc) or (e39xvmoa <> g19vrdgxxpfcv) and (s65vd = r37pmgma) then
 begin
-u55can := o36jxn - 44;
-t63bkkans := 'J';
-s37ayaltkbqn := e94gjnmhmzzxne + 57;
-u55can := 25.679743;
-t92mkgrjs := n91c * 83;
-t76ivbncuooz := b41rcwzhinxgd mod o69sowktvh;
+y9bfvg := FALSE;
+m37sl := 42;
+e21qlzkeo := t86kljo * 82.499175;
+g19vrdgxxpfcv := v26ahjls / e39xvmoa;
+g19vrdgxxpfcv := 19.239808;
+n84a := u21nqxmlv / 44.249558;
+v26ahjls := 44;
+c52mflxtrap := 'o';
+z99cmaiz := z99cmaiz * d99bsl;
 end
 else
 begin
-if  (n84zmiszvsb <> u55can) or (h71hbrrygsh <= q15a) and (i7zj <> h50zrrko) or (f13weibv > f13weibv) or (o40plswjhshlpz = i26xb) or (o36jxn >= q100nxyznu) or (h50zrrko >= g40xrz) and (g40xrz <= q100nxyznu) and (e94gjnmhmzzxne >= q16mnq) then
+if  (r95xv = g19vrdgxxpfcv) and (n84a >= e39xvmoa) or (f92knjkvqpmd = p55ugoch) or (n73tnazwsum = r41cfqmnizznz) and (l35vtquz < g19vrdgxxpfcv) and (v26ahjls <= d99bsl) then
 begin
-e94gjnmhmzzxne := g72jio - 69;
-s37ayaltkbqn := 26.629734;
-s37ayaltkbqn := f99djmcoocgcd * 92;
-z69me := 'g';
-u55can := t59beijbw / g72jio;
-u55can := o69sowktvh - 23;
+r95xv := m37sl + 69.149309;
+u21nqxmlv := 60.009400;
 end
-else if  (b75hgjbbwislh < t59beijbw) or (k98fykmfcx > o71ukap) and (c58ui <> f13weibv) and (o36jxn >= q15a) and (n91c < g72jio) or (o71ukap > f13weibv) or (k98fykmfcx >= t76ivbncuooz) and (l21uh and o48d) and (j80bebecdojy < u55can) then
+else if  (p4ugvxiygy > m37sl) or (t51shd <= n84a) and (w2bjzjvwc = d84pwoaushkpe) or j35aoyvfreodw or (f92knjkvqpmd = d84pwoaushkpe) then
 begin
-h50zrrko := 8;
-z69me := 'a';
-n84zmiszvsb := 93;
-s44wdi := 'd';
-m3clhpsdjcum := 86;
-w77aqgfqbjc := 53;
-q15a := 5.199948;
+t51shd := 17.859821;
+e39xvmoa := o58tyh + u21nqxmlv;
+i46dcc := FALSE;
+p4ugvxiygy := z99cmaiz * v26ahjls;
+p55ugoch := 'h';
+u21nqxmlv := m37sl / u21nqxmlv;
+p4ugvxiygy := o58tyh * t86kljo;
 end
-else if  (n91c <= i7zj) or (h71hbrrygsh <= n91c) or (m33hfqbhaiiuvh = s20xpeok) or (q100nxyznu < g89qfwahxqkk) then
+else if  (r41cfqmnizznz = r37pmgma) or (u21nqxmlv <> d99bsl) or (g19vrdgxxpfcv >= d99bsl) or (n84a >= d99bsl) or (v26ahjls <> d99bsl) or (l89vfdf = e39xvmoa) and (n84a >= e21qlzkeo) then
 begin
-s44wdi := 'C';
-e94gjnmhmzzxne := x14hvgthtilzk / 6.779932;
-q16mnq := 54.609454;
-end
-else
-begin
-j49of := TRUE;
-r87pvdwtez := 50.839492;
-g89qfwahxqkk := 42;
-end;
-end;
-end;
-end;
-end;
-SubFunc141 := n26jdcxox;
-end;
-
-
-function SubFunc457(f96tswonvft : real): real;
-var
-d21cvia:real;
-begin
-d21cvia := 13.539865;
-for w77aqgfqbjc:= 1 to 1 do
-begin
-m3clhpsdjcum := k98fykmfcx div 88;
-s20xpeok := SubFunc141(m33hfqbhaiiuvh);
-d21cvia := f96tswonvft - 96;
-o71ukap := h71hbrrygsh + 44;
-for o69sowktvh:= 1 to 3 do
-begin
-c58ui := 34;
-t76ivbncuooz := b41rcwzhinxgd - 48.179518;
-i55wxw := SubFunc141(n26jdcxox);
-u54rpqaubbi := 62;
-n26jdcxox := SubFunc141(m33hfqbhaiiuvh);
-for h50zrrko:= 1 to 2 do
-begin
-q16mnq := g89qfwahxqkk / r87pvdwtez;
-t63bkkans := SubFunc141(m33hfqbhaiiuvh);
-o71ukap := 73;
-e94gjnmhmzzxne := t59beijbw * o71ukap;
-y47z := FALSE;
-s44wdi := 'M';
-i55wxw := SubFunc141(z69me);
-b75hgjbbwislh := 25;
-d21cvia := 33.939661;
-i44dppwuv := 'w';
-y33kleqaplp := g89qfwahxqkk - f13weibv;
-end;
-end;
-end;
-SubFunc457 := f96tswonvft;
-end;
-
-
-function SubFunc966(y92c : boolean; f85jlndjg : integer; y13utx : boolean): boolean;
-var
-r82mx:real;
-u57jsbfef:integer;
-a16tyu:integer;
-begin
-a16tyu := 12;
-r82mx := 90.169098;
-u57jsbfef := 31;
-for n91c:= 1 to 2 do
-begin
-e94gjnmhmzzxne := SubFunc457(k89heqaz);
-g72jio := o71ukap + 22;
-f85jlndjg := 44;
-r87pvdwtez := f99djmcoocgcd / 91.399086;
-i26xb := SubFunc141(z69me);
-y33kleqaplp := i7zj + b75hgjbbwislh;
-for i7zj:= 1 to 3 do
-begin
-s20xpeok := SubFunc141(i26xb);
-o40plswjhshlpz := SubFunc141(i55wxw);
-s37ayaltkbqn := SubFunc457(u55can);
-k89heqaz := c100ociib * o71ukap;
-for a16tyu:= 1 to 1 do
-begin
-q15a := SubFunc457(v31kjtfetloir);
-q16mnq := SubFunc457(y33kleqaplp);
-v31kjtfetloir := u54rpqaubbi + g32vkfaei;
-g72jio := SubFunc457(t76ivbncuooz);
-o40plswjhshlpz := 's';
-end;
-end;
-end;
-SubFunc966 := o47lsefiqvbr;
-end;
-
-
-function SubFunc702(e93g : real; s9r : integer): integer;
-var
-p79yzpdyuflesp:real;
-z22prym:boolean;
-begin
-p79yzpdyuflesp := 80.169198;
-z22prym := TRUE;
-for g89qfwahxqkk:= 1 to 2 do
-begin
-l21uh := TRUE;
-s9r := 1;
-g72jio := g32vkfaei * u54rpqaubbi;
-z22prym := SubFunc966(o48d, o71ukap, e50mt);
-o48d := SubFunc966(y47z, f99djmcoocgcd, n76ejyd);
-g72jio := f99djmcoocgcd + g32vkfaei;
-d44vjtvyvi := SubFunc141(m33hfqbhaiiuvh);
-s37ayaltkbqn := m3clhpsdjcum - x14hvgthtilzk;
-y33kleqaplp := o71ukap - 68.999310;
-r87pvdwtez := c100ociib * y33kleqaplp;
-u55can := SubFunc457(r87pvdwtez);
-for k98fykmfcx:= 1 to 1 do
-begin
-if  (e94gjnmhmzzxne < s37ayaltkbqn) or (v31kjtfetloir >= m3clhpsdjcum) and (u54rpqaubbi < t59beijbw) or (f99djmcoocgcd = e94gjnmhmzzxne) then
-begin
-e94gjnmhmzzxne := SubFunc457(k89heqaz);
-p79yzpdyuflesp := f13weibv + t92mkgrjs;
-e94gjnmhmzzxne := g72jio + q15a;
-q16mnq := b75hgjbbwislh + 14;
-c58ui := 24;
-end
-else if  (d44vjtvyvi = i26xb) or (b75hgjbbwislh < r87pvdwtez) or (m3clhpsdjcum < b75hgjbbwislh) and (t76ivbncuooz >= g72jio) or (e93g <> f13weibv) or (n76ejyd and z22prym) or (t59beijbw >= s37ayaltkbqn) and (f99djmcoocgcd <> k89heqaz) then
-begin
-i55wxw := SubFunc141(o40plswjhshlpz);
-n76ejyd := TRUE;
-f99djmcoocgcd := 56;
-end
-else if  (t59beijbw <> f99djmcoocgcd) or (h71hbrrygsh <> g32vkfaei) or (o36jxn = u55can) or (e94gjnmhmzzxne > t76ivbncuooz) or (g72jio <= v31kjtfetloir) and (g72jio <= u55can) then
-begin
-o48d := TRUE;
-g32vkfaei := 87;
-y47z := SubFunc966(n76ejyd, s9r, j49of);
-i26xb := SubFunc141(m33hfqbhaiiuvh);
-z22prym := SubFunc966(z22prym, t59beijbw, j49of);
-k89heqaz := e94gjnmhmzzxne * 37.509625;
-end
-else if  (m33hfqbhaiiuvh = s44wdi) or (s20xpeok = t63bkkans) and (m3clhpsdjcum = t59beijbw) and (p79yzpdyuflesp <> e94gjnmhmzzxne) and (e94gjnmhmzzxne >= b75hgjbbwislh) then
-begin
-n26jdcxox := 'i';
-b41rcwzhinxgd := 65;
-x14hvgthtilzk := 56;
-k89heqaz := c100ociib + 93;
-s9r := 50;
-y47z := SubFunc966(j49of, c100ociib, z22prym);
-y33kleqaplp := n84zmiszvsb div s9r;
-q15a := f13weibv / 43.909561;
-s37ayaltkbqn := SubFunc457(p79yzpdyuflesp);
-end
-else if  (s37ayaltkbqn > t59beijbw) or (e94gjnmhmzzxne = n84zmiszvsb) or (b41rcwzhinxgd >= y33kleqaplp) and (q15a >= u55can) then
-begin
-q16mnq := f99djmcoocgcd - 21;
-i44dppwuv := SubFunc141(y35axncjjzc);
-e93g := c58ui + n84zmiszvsb;
-e94gjnmhmzzxne := SubFunc457(k89heqaz);
-y33kleqaplp := SubFunc457(g72jio);
-s37ayaltkbqn := b75hgjbbwislh - 71.489285;
-e93g := 84.529155;
+p55ugoch := 'y';
+r37pmgma := 'O';
+u21nqxmlv := e21qlzkeo / 93.739063;
+t86kljo := 78;
+p58oraznavcp := 'd';
+y90yim := 'K';
 end
 else
 begin
-i44dppwuv := SubFunc141(m33hfqbhaiiuvh);
-g32vkfaei := 17;
-t63bkkans := SubFunc141(s20xpeok);
-d44vjtvyvi := SubFunc141(m33hfqbhaiiuvh);
-s37ayaltkbqn := SubFunc457(v31kjtfetloir);
-f13weibv := 69;
-q16mnq := t92mkgrjs / 85.829142;
-p79yzpdyuflesp := c58ui / e93g;
-s44wdi := 'C';
-e93g := SubFunc457(r87pvdwtez);
+if  (t86kljo <= e39xvmoa) and z68odrduzszho and d3hphrpmazph or (l35vtquz > r95xv) or (v26ahjls > t51shd) or (z99cmaiz = n84a) or (l89vfdf >= e21qlzkeo) then
+begin
+u21nqxmlv := l35vtquz / 55;
+u21nqxmlv := 38.869611;
+y90yim := 'f';
+p4ugvxiygy := 40.879591;
+p4ugvxiygy := o58tyh mod 32;
+z99cmaiz := o58tyh - d99bsl;
+z99cmaiz := m37sl + 53.449466;
+end
+else
+begin
+if  (o58tyh <> t51shd) and (p55ugoch = f92knjkvqpmd) and (p4ugvxiygy >= p4ugvxiygy) or (e80xccrjgd = p55ugoch) or (r95xv <= g19vrdgxxpfcv) or (r37pmgma = y90yim) then
+begin
+e39xvmoa := o58tyh - e39xvmoa;
+l35vtquz := 76.329237;
+t51shd := o58tyh * e21qlzkeo;
+d99bsl := e39xvmoa + 37.019630;
+d3hphrpmazph := TRUE;
+end
+else if  (z99cmaiz > t86kljo) or (e21qlzkeo <= d99bsl) and (p4ugvxiygy <> u21nqxmlv) or (l35vtquz >= l89vfdf) or (w2bjzjvwc = f92knjkvqpmd) and (t51shd <= l89vfdf) or (l89vfdf < p4ugvxiygy) then
+begin
+g19vrdgxxpfcv := u21nqxmlv + 32.039680;
+r95xv := v26ahjls - 5.139949;
+d3hphrpmazph := TRUE;
+d99bsl := l89vfdf - g19vrdgxxpfcv;
+s65vd := 'm';
+l35vtquz := g19vrdgxxpfcv * 87.499125;
+end
+else if  (y90yim = s65vd) or (m37sl > g19vrdgxxpfcv) or (p4ugvxiygy >= l89vfdf) or (p58oraznavcp = w2bjzjvwc) or (e39xvmoa >= o58tyh) or (o58tyh >= m37sl) and (o58tyh = d99bsl) then
+begin
+e21qlzkeo := m37sl + 82.799172;
+e21qlzkeo := l89vfdf * 39;
+e39xvmoa := r95xv / 59.789402;
+y9bfvg := FALSE;
+i46dcc := TRUE;
+z99cmaiz := o58tyh / p4ugvxiygy;
+d99bsl := m37sl / 26.609734;
+end
+else if  (v26ahjls <> v26ahjls) or (r95xv < r95xv) or (r37pmgma = r37pmgma) then
+begin
+l89vfdf := 95;
+g19vrdgxxpfcv := v26ahjls * 27;
+p58oraznavcp := 'r';
+end
+else
+begin
+if  (m37sl <= p4ugvxiygy) or (l35vtquz < l35vtquz) or (o58tyh < u21nqxmlv) or (y9bfvg and j35aoyvfreodw) or (z99cmaiz >= e21qlzkeo) and (y90yim = p55ugoch) and (w2bjzjvwc = r37pmgma) and (t86kljo >= t51shd) then
+begin
+y9bfvg := TRUE;
+j35aoyvfreodw := FALSE;
+l35vtquz := t51shd / 90.379096;
+e21qlzkeo := r95xv * p4ugvxiygy;
+t51shd := t51shd / u21nqxmlv;
+end
+else
+begin
+for f81kkfqv:= 1 to 1 do
+begin
+n73tnazwsum := 'N';
+z68odrduzszho := TRUE;
+r95xv := e39xvmoa - n84a;
+r95xv := v26ahjls + l89vfdf;
+e39xvmoa := p4ugvxiygy / e39xvmoa;
+for p100iovl:= 1 to 1 do
+begin
+for i6mglbzl:= 1 to 3 do
+begin
+d99bsl := z99cmaiz * n84a;
+l35vtquz := v26ahjls + 49;
 end;
 end;
 end;
-SubFunc702 := b41rcwzhinxgd;
+end;
+end;
+end;
+end;
+end;
+SubFunc1 := p58oraznavcp;
+end;
+
+
+function SubFunc2(s68ipxncu : boolean; f73xy : integer): integer;
+var
+w69ipf:char;
+l55pg:integer;
+begin
+l55pg := 16;
+w69ipf := 'V';
+if  (l89vfdf <> l89vfdf) and s70oevaz or (l55pg >= n84a) or i46dcc and (g19vrdgxxpfcv <> t51shd) then
+begin
+z99cmaiz := d99bsl - 76.169238;
+w69ipf := SubFunc1(w69ipf, f92knjkvqpmd, w2bjzjvwc);
+f92knjkvqpmd := 'B';
+z68odrduzszho := FALSE;
+end
+else if  j35aoyvfreodw and (z99cmaiz >= l89vfdf) or (f73xy < e21qlzkeo) and (l35vtquz <= o58tyh) and (r95xv <> f73xy) and d3hphrpmazph and (r95xv <= v26ahjls) then
+begin
+s68ipxncu := FALSE;
+f92knjkvqpmd := SubFunc1(p55ugoch, f92knjkvqpmd, r37pmgma);
+n84a := m37sl - 17.449826;
+end
+else if  (l55pg > z99cmaiz) and (g19vrdgxxpfcv <> z99cmaiz) and (t86kljo >= o58tyh) and (l35vtquz > o58tyh) and z68odrduzszho and (f73xy < z99cmaiz) and (z99cmaiz > l35vtquz) or (o58tyh >= p4ugvxiygy) and (z99cmaiz >= t51shd) then
+begin
+w2bjzjvwc := 'I';
+f92knjkvqpmd := SubFunc1(w69ipf, w69ipf, p58oraznavcp);
+d99bsl := t51shd / p4ugvxiygy;
+g19vrdgxxpfcv := m37sl + 29.359706;
+t86kljo := 47;
+z99cmaiz := e39xvmoa - 99.839002;
+end
+else
+begin
+e39xvmoa := v26ahjls - 35;
+c52mflxtrap := SubFunc1(f92knjkvqpmd, p55ugoch, n73tnazwsum);
+d99bsl := l55pg + l55pg;
+f92knjkvqpmd := SubFunc1(p55ugoch, r37pmgma, w69ipf);
+l55pg := 42;
+w2bjzjvwc := SubFunc1(e80xccrjgd, r37pmgma, c52mflxtrap);
+end;
+SubFunc2 := v26ahjls;
+end;
+
+
+function SubFunc3(a13imrtyatnbd : char; n11fmmj : char): char;
+var
+n54ojiz:integer;
+g67nzhwt:char;
+y78mbd:integer;
+begin
+g67nzhwt := 'j';
+n54ojiz := 22;
+y78mbd := 36;
+if  (e80xccrjgd = y90yim) and (d99bsl <= l35vtquz) or (t51shd <= l89vfdf) and (n54ojiz >= t51shd) or (o58tyh < m37sl) or (p58oraznavcp = w2bjzjvwc) and (n73tnazwsum = w2bjzjvwc) or (r95xv = n54ojiz) or (o58tyh > o58tyh) then
+begin
+o58tyh := 29;
+r95xv := t86kljo * n54ojiz;
+e39xvmoa := e21qlzkeo * t51shd;
+o58tyh := SubFunc2(z68odrduzszho, t86kljo);
+p58oraznavcp := SubFunc1(r37pmgma, w2bjzjvwc, p55ugoch);
+end
+else if  (w2bjzjvwc = a13imrtyatnbd) and (o58tyh > p4ugvxiygy) or (c52mflxtrap = c52mflxtrap) and (n54ojiz > v26ahjls) and (e80xccrjgd = n11fmmj) then
+begin
+o58tyh := 58;
+e39xvmoa := t86kljo + t51shd;
+p58oraznavcp := SubFunc1(g67nzhwt, p58oraznavcp, g67nzhwt);
+y90yim := SubFunc1(p58oraznavcp, y90yim, p58oraznavcp);
+n84a := t86kljo div m37sl;
+d3hphrpmazph := FALSE;
+p55ugoch := SubFunc1(n73tnazwsum, f92knjkvqpmd, f92knjkvqpmd);
+z99cmaiz := y78mbd * o58tyh;
+c52mflxtrap := SubFunc1(c52mflxtrap, r37pmgma, n11fmmj);
+end
+else
+begin
+c52mflxtrap := SubFunc1(p55ugoch, a13imrtyatnbd, f92knjkvqpmd);
+e39xvmoa := n54ojiz * e39xvmoa;
+o58tyh := l89vfdf * 32;
+n54ojiz := SubFunc2(d3hphrpmazph, m37sl);
+y78mbd := SubFunc2(z68odrduzszho, t86kljo);
+end;
+SubFunc3 := r37pmgma;
+end;
+
+
+function SubFunc4(p5e : real; s38jqmr : real; q1hazwwpmki : char): real;
+var
+k24nfhdg:integer;
+s54efcy:boolean;
+begin
+k24nfhdg := 57;
+s54efcy := FALSE;
+for d17lzexsfgdv:= 1 to 3 do
+begin
+r37pmgma := 'U';
+w2bjzjvwc := SubFunc3(e80xccrjgd, y90yim);
+p5e := o58tyh mod 32;
+l89vfdf := SubFunc2(s70oevaz, m37sl);
+r37pmgma := SubFunc3(p58oraznavcp, f92knjkvqpmd);
+r95xv := t51shd / m37sl;
+f92knjkvqpmd := SubFunc3(f92knjkvqpmd, f92knjkvqpmd);
+for s31zkswbeoelsd:= 1 to 1 do
+begin
+t86kljo := 64;
+r37pmgma := SubFunc1(w2bjzjvwc, f92knjkvqpmd, q1hazwwpmki);
+d99bsl := v26ahjls * m37sl;
+p5e := t51shd - t86kljo;
+l35vtquz := 79.799202;
+l35vtquz := l89vfdf + r95xv;
+d99bsl := t86kljo * l35vtquz;
+l89vfdf := SubFunc2(s54efcy, k24nfhdg);
+r37pmgma := SubFunc1(e80xccrjgd, r37pmgma, c52mflxtrap);
+s70oevaz := TRUE;
+e21qlzkeo := d99bsl - z99cmaiz;
+for j35nwyngdwibpo:= 1 to 2 do
+begin
+for v97oxgtayki:= 1 to 1 do
+begin
+q1hazwwpmki := 'R';
+f92knjkvqpmd := SubFunc1(f92knjkvqpmd, y90yim, r37pmgma);
+r95xv := m37sl + z99cmaiz;
+p4ugvxiygy := 84.639154;
+e80xccrjgd := SubFunc3(f92knjkvqpmd, r37pmgma);
+y9bfvg := TRUE;
+for n56cwmxekip:= 1 to 2 do
+begin
+e21qlzkeo := m37sl * m37sl;
+o58tyh := SubFunc2(z68odrduzszho, o58tyh);
+p58oraznavcp := 'A';
+r37pmgma := 'a';
+t51shd := v26ahjls * k24nfhdg;
+y90yim := SubFunc1(r37pmgma, c52mflxtrap, q1hazwwpmki);
+z99cmaiz := 25.969740;
+for m70fmuo:= 1 to 3 do
+begin
+if  (e39xvmoa >= o58tyh) or (e39xvmoa <> l89vfdf) and (g19vrdgxxpfcv <= e39xvmoa) or (y9bfvg and i46dcc) or (s70oevaz and j35aoyvfreodw) then
+begin
+e21qlzkeo := 31.599684;
+d99bsl := v26ahjls - 52.909471;
+t51shd := l89vfdf / n84a;
+e21qlzkeo := v26ahjls * t86kljo;
+n73tnazwsum := SubFunc3(w2bjzjvwc, w2bjzjvwc);
+f92knjkvqpmd := SubFunc1(n73tnazwsum, y90yim, p58oraznavcp);
+l89vfdf := SubFunc2(y9bfvg, k24nfhdg);
+y90yim := SubFunc1(n73tnazwsum, f92knjkvqpmd, y90yim);
+end
+else if  (l89vfdf <> o58tyh) or (o58tyh > p4ugvxiygy) and (r95xv = l35vtquz) and (t86kljo = m37sl) or (e39xvmoa <= l89vfdf) and (s38jqmr <> l89vfdf) then
+begin
+r37pmgma := 'n';
+z99cmaiz := t86kljo + v26ahjls;
+p4ugvxiygy := d99bsl * 61;
+s38jqmr := p4ugvxiygy / 84;
+p5e := l89vfdf / n84a;
+z99cmaiz := 40.589594;
+l35vtquz := v26ahjls + 37.529625;
+end
+else if  (n84a <> r95xv) and (e39xvmoa > d99bsl) or d3hphrpmazph and (g19vrdgxxpfcv <= s38jqmr) and (o58tyh <> t86kljo) and (w2bjzjvwc = n73tnazwsum) then
+begin
+o58tyh := SubFunc2(j35aoyvfreodw, t86kljo);
+t86kljo := SubFunc2(s54efcy, v26ahjls);
+n84a := p4ugvxiygy * 60.389396;
+p4ugvxiygy := t86kljo * e21qlzkeo;
+s70oevaz := TRUE;
+p4ugvxiygy := k24nfhdg * 93;
+f92knjkvqpmd := SubFunc3(e80xccrjgd, q1hazwwpmki);
+end
+else if  (s38jqmr < p4ugvxiygy) and (r95xv = t51shd) or s54efcy then
+begin
+j35aoyvfreodw := FALSE;
+t86kljo := SubFunc2(d3hphrpmazph, v26ahjls);
+c52mflxtrap := SubFunc1(n73tnazwsum, q1hazwwpmki, q1hazwwpmki);
+s54efcy := FALSE;
+k24nfhdg := 19;
+n73tnazwsum := 'B';
+l89vfdf := 6;
+s54efcy := TRUE;
+l35vtquz := m37sl + p5e;
+p5e := 33.029670;
+end
+else
+begin
+p4ugvxiygy := t86kljo - 77.809222;
+s38jqmr := k24nfhdg / 5.579944;
+r95xv := k24nfhdg / p5e;
+d99bsl := l89vfdf * o58tyh;
+p4ugvxiygy := 68.929311;
+r37pmgma := SubFunc3(q1hazwwpmki, e80xccrjgd);
+e21qlzkeo := l89vfdf + 37.899621;
+k24nfhdg := SubFunc2(s54efcy, m37sl);
+e21qlzkeo := 53.379466;
+o58tyh := 16;
+d99bsl := e39xvmoa * 40;
+end;
+end;
+end;
+end;
+end;
+end;
+end;
+SubFunc4 := r95xv;
 end;
 
 
 begin
 //---------------start init---------------
-b41rcwzhinxgd := 65;
-b75hgjbbwislh := 25;
-c100ociib := 28;
-c58ui := 24;
-d44vjtvyvi := 's';
-e50mt := FALSE;
-e94gjnmhmzzxne := 69.429306;
-f13weibv := 69;
-f99djmcoocgcd := 56;
-g32vkfaei := 17;
-g72jio := 24.239758;
-h71hbrrygsh := 3;
-i26xb := 'a';
-i44dppwuv := 'w';
-i55wxw := 'X';
-j49of := TRUE;
-k89heqaz := 73.139269;
-l21uh := TRUE;
-m33hfqbhaiiuvh := 'q';
-m3clhpsdjcum := 86;
-n26jdcxox := 'i';
-n76ejyd := TRUE;
-n84zmiszvsb := 93;
-o36jxn := 21;
-o40plswjhshlpz := 's';
-o47lsefiqvbr := TRUE;
-o48d := TRUE;
-o71ukap := 73;
-q15a := 5.199948;
-q16mnq := 54.609454;
-q20r := 'g';
-r87pvdwtez := 50.839492;
-s20xpeok := 'V';
-s37ayaltkbqn := 26.629734;
-s44wdi := 'C';
-t59beijbw := 4;
-t63bkkans := 'J';
-t76ivbncuooz := 97.839022;
-t92mkgrjs := 26;
-u54rpqaubbi := 62;
-u55can := 25.679743;
-u57hfovahofjgi := 67;
-v31kjtfetloir := 67.279327;
-x14hvgthtilzk := 56;
-y33kleqaplp := 47.639524;
-y35axncjjzc := 'f';
-y47z := FALSE;
-z69me := 'a';
+c52mflxtrap := 'o';
+d3hphrpmazph := FALSE;
+d99bsl := 75.839242;
+e21qlzkeo := 53.379466;
+e39xvmoa := 82.329177;
+e80xccrjgd := 'r';
+f92knjkvqpmd := 'B';
+g19vrdgxxpfcv := 19.239808;
+i46dcc := TRUE;
+j35aoyvfreodw := FALSE;
+l35vtquz := 79.799202;
+l89vfdf := 6;
+m37sl := 42;
+n73tnazwsum := 'B';
+n84a := 40.989590;
+o58tyh := 16;
+p4ugvxiygy := 68.929311;
+p55ugoch := 'y';
+p58oraznavcp := 'A';
+r37pmgma := 'n';
+r95xv := 70.119299;
+s70oevaz := TRUE;
+t51shd := 17.859821;
+t86kljo := 64;
+v26ahjls := 44;
+w2bjzjvwc := 'I';
+y90yim := 'f';
+y9bfvg := TRUE;
+z68odrduzszho := FALSE;
+z99cmaiz := 40.589594;
 //---------------start assign---------------
-i55wxw := 'J';
-t63bkkans := 'U';
-i44dppwuv := 'd';
-m33hfqbhaiiuvh := 'I';
-t92mkgrjs := 12;
-f99djmcoocgcd := 11;
-u55can := 34.169658;
-t76ivbncuooz := 23.379766;
-u55can := 16.789832;
-d44vjtvyvi := 'T';
-t63bkkans := 'B';
-i44dppwuv := 'r';
-x14hvgthtilzk := 30;
-v31kjtfetloir := 51.999480;
+n84a := 53.159468;
+p58oraznavcp := 'k';
+g19vrdgxxpfcv := 82.069179;
+n84a := 10.499895;
+p4ugvxiygy := 28.589714;
+p4ugvxiygy := 99.009010;
+w2bjzjvwc := 'P';
+m37sl := 32;
 //---------------start calc---------------
-t92mkgrjs := 37;
-m33hfqbhaiiuvh := 'I';
-q15a := SubFunc457(g72jio);
-for u54rpqaubbi:= 1 to 2 do
+if  (z99cmaiz <> o58tyh) and (o58tyh <> e21qlzkeo) or (e21qlzkeo = l35vtquz) or (p58oraznavcp = w2bjzjvwc) or (w2bjzjvwc = p58oraznavcp) and (y90yim = f92knjkvqpmd) or z68odrduzszho or (r95xv <> v26ahjls) then
 begin
-o40plswjhshlpz := 'Q';
-s37ayaltkbqn := x14hvgthtilzk - k89heqaz;
-g72jio := n84zmiszvsb - 21;
-s37ayaltkbqn := 76.529235;
-u55can := n84zmiszvsb + t76ivbncuooz;
-o47lsefiqvbr := SubFunc966(o47lsefiqvbr, o36jxn, n76ejyd);
-end;
-for c100ociib:= 1 to 2 do
-begin
-k89heqaz := m3clhpsdjcum + 78;
-h71hbrrygsh := SubFunc702(r87pvdwtez, h71hbrrygsh);
-k89heqaz := t59beijbw * 75;
-q16mnq := v31kjtfetloir + t59beijbw;
-o47lsefiqvbr := SubFunc966(e50mt, h71hbrrygsh, n76ejyd);
-i26xb := 'J';
-s44wdi := SubFunc141(s20xpeok);
-o48d := FALSE;
-s37ayaltkbqn := SubFunc457(y33kleqaplp);
-c58ui := b75hgjbbwislh + 53;
-for o71ukap:= 1 to 2 do
-begin
-b75hgjbbwislh := 75;
-c58ui := 51;
-s20xpeok := SubFunc141(z69me);
-b41rcwzhinxgd := 7;
-for b41rcwzhinxgd:= 1 to 2 do
-begin
-if  (m3clhpsdjcum = t59beijbw) or (b75hgjbbwislh = f13weibv) or (o48d or l21uh) or (q15a > f99djmcoocgcd) or (k89heqaz >= g72jio) and (y33kleqaplp <> f13weibv) then
-begin
-e94gjnmhmzzxne := SubFunc457(q15a);
-v31kjtfetloir := n84zmiszvsb * 52;
-e94gjnmhmzzxne := v31kjtfetloir + 64.639354;
-t76ivbncuooz := 96.739033;
-u55can := SubFunc457(q15a);
+n84a := t86kljo mod 6;
+z68odrduzszho := FALSE;
+j35aoyvfreodw := TRUE;
 end
-else if  (b75hgjbbwislh <> g32vkfaei) and (k89heqaz > e94gjnmhmzzxne) and (t63bkkans = i55wxw) and (t92mkgrjs < c58ui) and (m33hfqbhaiiuvh = d44vjtvyvi) and (h71hbrrygsh <= f13weibv) and (g72jio < r87pvdwtez) or (q16mnq <= g32vkfaei) then
+else if  (o58tyh = p4ugvxiygy) and (e39xvmoa >= e21qlzkeo) or (g19vrdgxxpfcv < o58tyh) then
 begin
-r87pvdwtez := q16mnq - 27;
-t59beijbw := 50;
-q16mnq := g72jio / 81.499185;
-q16mnq := o36jxn - 40;
-q16mnq := 36.999630;
-t59beijbw := 69;
-t59beijbw := SubFunc702(u55can, b75hgjbbwislh);
-k89heqaz := g32vkfaei - r87pvdwtez;
-y47z := SubFunc966(o47lsefiqvbr, f99djmcoocgcd, o47lsefiqvbr);
+l89vfdf := SubFunc2(s70oevaz, t86kljo);
+r37pmgma := SubFunc3(e80xccrjgd, p55ugoch);
+e39xvmoa := l89vfdf * 77;
+t51shd := d99bsl / n84a;
+end
+else if  (w2bjzjvwc = f92knjkvqpmd) and (n84a >= t51shd) or (r37pmgma = w2bjzjvwc) and (p4ugvxiygy < t51shd) or (e80xccrjgd = w2bjzjvwc) or (r95xv <> e21qlzkeo) then
+begin
+w2bjzjvwc := 'K';
+d3hphrpmazph := FALSE;
+r37pmgma := SubFunc3(w2bjzjvwc, w2bjzjvwc);
+l89vfdf := SubFunc2(y9bfvg, m37sl);
+f92knjkvqpmd := 'O';
+v26ahjls := SubFunc2(d3hphrpmazph, v26ahjls);
+end
+else if  (e80xccrjgd = e80xccrjgd) and (z99cmaiz <> g19vrdgxxpfcv) and (z99cmaiz <= z99cmaiz) or (p4ugvxiygy > r95xv) or (e21qlzkeo < p4ugvxiygy) and (n84a >= z99cmaiz) or (p55ugoch = f92knjkvqpmd) then
+begin
+e80xccrjgd := 'I';
+v26ahjls := m37sl * l89vfdf;
+d3hphrpmazph := TRUE;
 end
 else
 begin
-d44vjtvyvi := 'P';
-u57hfovahofjgi := 9;
-q15a := SubFunc457(u55can);
-e50mt := FALSE;
-e94gjnmhmzzxne := c58ui mod o36jxn;
-t76ivbncuooz := 29.699703;
-end;
-end;
-end;
-end;
-y33kleqaplp := SubFunc457(q15a);
-l21uh := SubFunc966(o48d, c58ui, n76ejyd);
-f13weibv := c58ui div g32vkfaei;
-s37ayaltkbqn := 6.899931;
-for n84zmiszvsb:= 1 to 2 do
+for p66znl:= 1 to 3 do
 begin
-for m3clhpsdjcum:= 1 to 2 do
+v26ahjls := m37sl + l89vfdf;
+p4ugvxiygy := m37sl - z99cmaiz;
+m37sl := t86kljo + 78;
+p4ugvxiygy := t86kljo * 34;
+for m55ihfqzisvmad:= 1 to 2 do
 begin
-if  (v31kjtfetloir > g32vkfaei) and (o47lsefiqvbr and o48d) and n76ejyd or (e94gjnmhmzzxne <= t92mkgrjs) then
+e39xvmoa := SubFunc4(l35vtquz, z99cmaiz, p58oraznavcp);
+g19vrdgxxpfcv := SubFunc4(r95xv, e39xvmoa, r37pmgma);
+e21qlzkeo := 66.639334;
+e39xvmoa := t51shd + z99cmaiz;
+y9bfvg := FALSE;
+n84a := z99cmaiz + 7.279927;
+p55ugoch := SubFunc1(r37pmgma, p55ugoch, y90yim);
+w2bjzjvwc := SubFunc1(f92knjkvqpmd, p58oraznavcp, y90yim);
+l35vtquz := v26ahjls - 15.729843;
+e80xccrjgd := SubFunc3(e80xccrjgd, n73tnazwsum);
+o58tyh := SubFunc2(s70oevaz, o58tyh);
+for x49bynwpzdevia:= 1 to 1 do
 begin
-t92mkgrjs := 11;
-o48d := TRUE;
-n76ejyd := TRUE;
-y33kleqaplp := f99djmcoocgcd + 20.169798;
-y47z := FALSE;
-e50mt := TRUE;
-r87pvdwtez := o36jxn mod u57hfovahofjgi;
-end
-else if  y47z or (u55can > r87pvdwtez) and (k89heqaz <= b75hgjbbwislh) then
+for o92ouwoxhu:= 1 to 3 do
 begin
-e94gjnmhmzzxne := s37ayaltkbqn - 76.279237;
-n26jdcxox := SubFunc141(i26xb);
-q15a := t76ivbncuooz - 50;
-t76ivbncuooz := 2.239978;
-o47lsefiqvbr := FALSE;
-end
-else if  (m33hfqbhaiiuvh = i26xb) and (g32vkfaei < q15a) or (q20r = n26jdcxox) or (t76ivbncuooz <= f13weibv) then
+g19vrdgxxpfcv := p4ugvxiygy * d99bsl;
+e80xccrjgd := 'b';
+p55ugoch := 'h';
+d99bsl := 51.509485;
+for a96hmynmfve:= 1 to 2 do
 begin
-f13weibv := SubFunc702(q15a, x14hvgthtilzk);
-v31kjtfetloir := y33kleqaplp - 36;
-t63bkkans := SubFunc141(i26xb);
-v31kjtfetloir := 54.529455;
-end
-else
+d99bsl := d99bsl * l35vtquz;
+d99bsl := v26ahjls * 61;
+p58oraznavcp := 'i';
+z68odrduzszho := FALSE;
+l35vtquz := SubFunc4(e21qlzkeo, n84a, y90yim);
+l89vfdf := 85;
+for b17snn:= 1 to 1 do
 begin
-t92mkgrjs := 96;
-q15a := 54.479455;
-h71hbrrygsh := SubFunc702(v31kjtfetloir, t59beijbw);
-r87pvdwtez := t92mkgrjs + u57hfovahofjgi;
-t92mkgrjs := 71;
-l21uh := SubFunc966(l21uh, f99djmcoocgcd, l21uh);
-f13weibv := SubFunc702(r87pvdwtez, h71hbrrygsh);
-z69me := SubFunc141(i55wxw);
-t63bkkans := 'm';
-e94gjnmhmzzxne := b75hgjbbwislh - v31kjtfetloir;
-i26xb := SubFunc141(i44dppwuv);
-end;
-end;
-end;
-for o36jxn:= 1 to 3 do
+if  (t86kljo >= e39xvmoa) and (f92knjkvqpmd = n73tnazwsum) and (r95xv <> v26ahjls) then
 begin
-q15a := c58ui - t76ivbncuooz;
-o47lsefiqvbr := SubFunc966(n76ejyd, f13weibv, l21uh);
-x14hvgthtilzk := SubFunc702(v31kjtfetloir, h71hbrrygsh);
-t59beijbw := t59beijbw * 6;
-f99djmcoocgcd := 49;
-t76ivbncuooz := q15a + 94.399056;
-q16mnq := u57hfovahofjgi + 30;
-r87pvdwtez := SubFunc457(g72jio);
-e94gjnmhmzzxne := g32vkfaei / 84.689153;
-y33kleqaplp := SubFunc457(g72jio);
-for h71hbrrygsh:= 1 to 3 do
-begin
-o40plswjhshlpz := 'j';
-q16mnq := b75hgjbbwislh + k89heqaz;
-e94gjnmhmzzxne := x14hvgthtilzk / 95.249048;
-g32vkfaei := 5;
-for x14hvgthtilzk:= 1 to 3 do
-begin
-for t59beijbw:= 1 to 3 do
-begin
-v31kjtfetloir := u57hfovahofjgi + t76ivbncuooz;
-s20xpeok := 'w';
-y47z := FALSE;
-m33hfqbhaiiuvh := 'd';
-for g32vkfaei:= 1 to 2 do
-begin
-u55can := t76ivbncuooz / q16mnq;
-n26jdcxox := SubFunc141(n26jdcxox);
-e94gjnmhmzzxne := u55can / q16mnq;
-f99djmcoocgcd := 10;
-for t92mkgrjs:= 1 to 3 do
-begin
-for u57hfovahofjgi:= 1 to 2 do
-begin
-for f13weibv:= 1 to 3 do
-begin
-y35axncjjzc := 'g';
-e94gjnmhmzzxne := 65.449346;
-y47z := TRUE;
-q16mnq := b75hgjbbwislh - e94gjnmhmzzxne;
-k89heqaz := f99djmcoocgcd / 16.109839;
-q16mnq := t76ivbncuooz - 33.179668;
-for c58ui:= 1 to 3 do
-begin
-f99djmcoocgcd := SubFunc702(t76ivbncuooz, b75hgjbbwislh);
-q15a := 98.979010;
-g72jio := SubFunc457(r87pvdwtez);
-u55can := 90.469095;
-f99djmcoocgcd := SubFunc702(t76ivbncuooz, b75hgjbbwislh);
-q16mnq := 37.039630;
-v31kjtfetloir := e94gjnmhmzzxne + g72jio;
-for f99djmcoocgcd:= 1 to 2 do
-begin
-for b75hgjbbwislh:= 1 to 3 do
-begin
-k89heqaz := SubFunc457(s37ayaltkbqn);
-q15a := e94gjnmhmzzxne - q15a;
-t76ivbncuooz := 35.839642;
-m33hfqbhaiiuvh := 'h';
-k89heqaz := 62.689373;
-end;
-end;
-end;
-end;
-end;
-end;
-end;
-end;
-end;
-end;
-end;
-s44wdi := SubFunc141(s44wdi);
-i26xb := 'A';
-d44vjtvyvi := 'x';
-o48d := TRUE;
-z69me := SubFunc141(i44dppwuv);
-u55can := SubFunc457(g72jio);
-q15a := e94gjnmhmzzxne * s37ayaltkbqn;
-s37ayaltkbqn := 44.189558;
-y35axncjjzc := 'u';
-q20r := 'G';
-if  (i26xb = i26xb) or (t63bkkans = i44dppwuv) and (y35axncjjzc = i26xb) and (k89heqaz >= g72jio) and j49of and (r87pvdwtez <> s37ayaltkbqn) or (n26jdcxox = d44vjtvyvi) then
-begin
-g72jio := r87pvdwtez - t76ivbncuooz;
-v31kjtfetloir := 48.159518;
-e50mt := TRUE;
-q15a := s37ayaltkbqn - y33kleqaplp;
-end
-else if  (d44vjtvyvi = y35axncjjzc) and (y35axncjjzc = d44vjtvyvi) and (t76ivbncuooz < q15a) then
-begin
-i44dppwuv := 'T';
-g72jio := q15a + 63.679363;
-e94gjnmhmzzxne := SubFunc457(s37ayaltkbqn);
-r87pvdwtez := r87pvdwtez * 11.709883;
-e94gjnmhmzzxne := 86.149139;
-t63bkkans := 'p';
-q16mnq := q16mnq + 98.039020;
-g72jio := r87pvdwtez * 67.959320;
-q16mnq := SubFunc457(k89heqaz);
-end
-else if  e50mt or (t63bkkans = i44dppwuv) and (s37ayaltkbqn < y33kleqaplp) then
-begin
-t76ivbncuooz := g72jio / g72jio;
-y35axncjjzc := 'O';
-q15a := y33kleqaplp + 76.919231;
-q15a := 79.879201;
-d44vjtvyvi := SubFunc141(y35axncjjzc);
-q15a := 17.909821;
-y33kleqaplp := 64.409356;
-end
-else if  (s20xpeok = i44dppwuv) and j49of or (m33hfqbhaiiuvh = n26jdcxox) or (q20r = s20xpeok) then
-begin
-u55can := t76ivbncuooz / e94gjnmhmzzxne;
-g72jio := SubFunc457(u55can);
-s37ayaltkbqn := y33kleqaplp * y33kleqaplp;
-g72jio := e94gjnmhmzzxne - k89heqaz;
-e94gjnmhmzzxne := t76ivbncuooz * 14.539855;
-q15a := 94.529055;
-r87pvdwtez := q15a + 80.209198;
+m37sl := SubFunc2(i46dcc, t86kljo);
+f92knjkvqpmd := SubFunc1(e80xccrjgd, n73tnazwsum, c52mflxtrap);
+f92knjkvqpmd := SubFunc3(c52mflxtrap, p58oraznavcp);
+g19vrdgxxpfcv := SubFunc4(e39xvmoa, p4ugvxiygy, p55ugoch);
+t51shd := 64.149359;
+n73tnazwsum := 'l';
+g19vrdgxxpfcv := t86kljo - 50.419496;
+n73tnazwsum := 'G';
 end
 else
 begin
+for r42kijl:= 1 to 3 do
+begin
+r95xv := t86kljo + v26ahjls;
+z99cmaiz := 14.919851;
+e21qlzkeo := SubFunc4(n84a, l35vtquz, y90yim);
+t51shd := z99cmaiz + 5.349947;
+end;
+end;
+end;
+end;
+end;
+end;
+end;
+end;
+end;
+for e15ifzhl:= 1 to 1 do
+begin
+n73tnazwsum := SubFunc3(p55ugoch, p58oraznavcp);
+f92knjkvqpmd := 'T';
+s70oevaz := FALSE;
+t51shd := 63.679363;
+g19vrdgxxpfcv := SubFunc4(r95xv, n84a, w2bjzjvwc);
+g19vrdgxxpfcv := t86kljo / z99cmaiz;
+for p33njfqzxey:= 1 to 3 do
+begin
+e39xvmoa := SubFunc4(e39xvmoa, e21qlzkeo, c52mflxtrap);
+t51shd := SubFunc4(d99bsl, r95xv, f92knjkvqpmd);
+p4ugvxiygy := v26ahjls * t51shd;
+e21qlzkeo := SubFunc4(z99cmaiz, z99cmaiz, p55ugoch);
+e39xvmoa := l35vtquz - 63.899361;
+l35vtquz := t86kljo / 0.389996;
+v26ahjls := 24;
+d99bsl := l35vtquz + 18;
+p58oraznavcp := SubFunc3(f92knjkvqpmd, f92knjkvqpmd);
+l35vtquz := n84a * n84a;
+end;
+end;
+e39xvmoa := 67.519325;
+p58oraznavcp := 'l';
+t86kljo := SubFunc2(z68odrduzszho, o58tyh);
+y90yim := SubFunc3(p55ugoch, p58oraznavcp);
+l35vtquz := d99bsl - 75;
+t51shd := SubFunc4(e21qlzkeo, t51shd, y90yim);
+e39xvmoa := 89.229108;
+y9bfvg := TRUE;
+c52mflxtrap := 'f';
+z99cmaiz := e39xvmoa * 14.029860;
+r95xv := 96.019040;
+d99bsl := 21.759782;
+n84a := n84a + 22;
+g19vrdgxxpfcv := m37sl + m37sl;
+for o81iplkmtgmwaq:= 1 to 3 do
+begin
+g19vrdgxxpfcv := 73.509265;
+z99cmaiz := l89vfdf + 73.469265;
+r95xv := SubFunc4(t51shd, e39xvmoa, e80xccrjgd);
+n73tnazwsum := SubFunc1(c52mflxtrap, n73tnazwsum, p58oraznavcp);
+n84a := e21qlzkeo * p4ugvxiygy;
+for l63icmcygqdhr:= 1 to 1 do
+begin
+r37pmgma := SubFunc1(f92knjkvqpmd, r37pmgma, f92knjkvqpmd);
+r95xv := 34.409656;
+r37pmgma := 'B';
+t51shd := v26ahjls * l89vfdf;
+w2bjzjvwc := SubFunc3(n73tnazwsum, w2bjzjvwc);
+n84a := 38.349617;
+p55ugoch := SubFunc3(p58oraznavcp, w2bjzjvwc);
+p55ugoch := 'h';
+l35vtquz := m37sl - 73.979260;
+n73tnazwsum := SubFunc3(w2bjzjvwc, w2bjzjvwc);
+p4ugvxiygy := t86kljo / l35vtquz;
+for q99vjlngswrdj:= 1 to 2 do
+begin
+if  j35aoyvfreodw and (n84a <> t51shd) and (g19vrdgxxpfcv = n84a) and (w2bjzjvwc = c52mflxtrap) and (z99cmaiz = p4ugvxiygy) and (t51shd > r95xv) and (e39xvmoa >= l89vfdf) and (s70oevaz or z68odrduzszho) and (n73tnazwsum = p55ugoch) then
+begin
+p4ugvxiygy := t86kljo / 18.599814;
+v26ahjls := SubFunc2(z68odrduzszho, m37sl);
+p4ugvxiygy := r95xv + 89.629104;
+r37pmgma := SubFunc1(e80xccrjgd, c52mflxtrap, w2bjzjvwc);
+t51shd := p4ugvxiygy / v26ahjls;
+e39xvmoa := 75.769242;
+end
+else if  (v26ahjls = m37sl) and (l35vtquz <= n84a) or j35aoyvfreodw and (l35vtquz <> o58tyh) and (r95xv < z99cmaiz) then
+begin
+g19vrdgxxpfcv := r95xv / r95xv;
+n73tnazwsum := SubFunc3(f92knjkvqpmd, p55ugoch);
+y90yim := 'd';
+m37sl := v26ahjls + 38;
+z68odrduzszho := FALSE;
+p4ugvxiygy := 47.889521;
+z99cmaiz := SubFunc4(g19vrdgxxpfcv, r95xv, w2bjzjvwc);
+end
+else
+begin
+for l72qdip:= 1 to 3 do
+begin
+n73tnazwsum := 'F';
+e39xvmoa := l89vfdf / 86.319137;
+r95xv := g19vrdgxxpfcv + 36.349637;
+l89vfdf := SubFunc2(i46dcc, t86kljo);
+t86kljo := SubFunc2(z68odrduzszho, v26ahjls);
+p55ugoch := 'K';
+r37pmgma := SubFunc3(p58oraznavcp, n73tnazwsum);
+for b78flqkljlwk:= 1 to 1 do
+begin
+r37pmgma := 'l';
+p55ugoch := 'E';
+g19vrdgxxpfcv := SubFunc4(t51shd, p4ugvxiygy, p55ugoch);
+end;
+end;
+end;
+end;
+end;
+end;
+if  (t51shd <= g19vrdgxxpfcv) and (e21qlzkeo >= g19vrdgxxpfcv) and (d99bsl <> e39xvmoa) and (z99cmaiz >= o58tyh) and (c52mflxtrap = n73tnazwsum) or (n84a <= p4ugvxiygy) and (m37sl = p4ugvxiygy) then
+begin
+c52mflxtrap := 'q';
+m37sl := 59;
+e21qlzkeo := o58tyh - 21;
+c52mflxtrap := SubFunc1(r37pmgma, c52mflxtrap, r37pmgma);
+p55ugoch := 'm';
+c52mflxtrap := 'Y';
+p4ugvxiygy := 55.709443;
+end
+else if  (p58oraznavcp = e80xccrjgd) or (y90yim = w2bjzjvwc) and (e80xccrjgd = n73tnazwsum) and (o58tyh <= o58tyh) or (e21qlzkeo > o58tyh) or (d99bsl = o58tyh) or (e21qlzkeo < l89vfdf) then
+begin
+l35vtquz := g19vrdgxxpfcv / 93.969060;
+t86kljo := 98;
+g19vrdgxxpfcv := n84a / n84a;
+f92knjkvqpmd := 'H';
+t51shd := e21qlzkeo * g19vrdgxxpfcv;
+end
+else
+begin
+e39xvmoa := 11.619884;
+n73tnazwsum := SubFunc3(r37pmgma, p58oraznavcp);
+l89vfdf := SubFunc2(d3hphrpmazph, l89vfdf);
+e80xccrjgd := SubFunc1(e80xccrjgd, p58oraznavcp, r37pmgma);
+r95xv := SubFunc4(z99cmaiz, r95xv, f92knjkvqpmd);
+end;
+p58oraznavcp := 'k';
+y90yim := SubFunc3(f92knjkvqpmd, e80xccrjgd);
+z99cmaiz := SubFunc4(e39xvmoa, t51shd, r37pmgma);
+r95xv := z99cmaiz * p4ugvxiygy;
+g19vrdgxxpfcv := 95.849042;
+w2bjzjvwc := SubFunc3(y90yim, y90yim);
+n84a := o58tyh + t86kljo;
+r95xv := SubFunc4(g19vrdgxxpfcv, p4ugvxiygy, w2bjzjvwc);
+r37pmgma := SubFunc3(p58oraznavcp, r37pmgma);
+e80xccrjgd := 'y';
+if  (c52mflxtrap = f92knjkvqpmd) or (z99cmaiz <= z99cmaiz) and (t51shd = o58tyh) then
+begin
+v26ahjls := SubFunc2(j35aoyvfreodw, l89vfdf);
+n84a := SubFunc4(n84a, t51shd, p58oraznavcp);
+n73tnazwsum := SubFunc1(p55ugoch, c52mflxtrap, p55ugoch);
+p4ugvxiygy := g19vrdgxxpfcv - p4ugvxiygy;
+g19vrdgxxpfcv := d99bsl - 54.249458;
+n84a := SubFunc4(e21qlzkeo, p4ugvxiygy, r37pmgma);
+o58tyh := SubFunc2(z68odrduzszho, m37sl);
+c52mflxtrap := SubFunc3(r37pmgma, n73tnazwsum);
+g19vrdgxxpfcv := 90.469095;
+c52mflxtrap := 'z';
+end
+else if  (z99cmaiz < v26ahjls) and (e21qlzkeo = r95xv) or (e21qlzkeo > g19vrdgxxpfcv) and (w2bjzjvwc = f92knjkvqpmd) or (l89vfdf > g19vrdgxxpfcv) and (r95xv > l89vfdf) or d3hphrpmazph and (d99bsl >= t86kljo) then
+begin
+m37sl := SubFunc2(d3hphrpmazph, l89vfdf);
+p55ugoch := 'K';
+r95xv := v26ahjls + t51shd;
+end
+else
+begin
+if  (f92knjkvqpmd = p55ugoch) and (n84a = n84a) and (p55ugoch = y90yim) and d3hphrpmazph or (t51shd < m37sl) or (p58oraznavcp = r37pmgma) and (n84a <= t86kljo) then
+begin
+y90yim := 'r';
+l89vfdf := SubFunc2(i46dcc, o58tyh);
+w2bjzjvwc := 'c';
+n73tnazwsum := SubFunc1(p55ugoch, w2bjzjvwc, n73tnazwsum);
+r95xv := l89vfdf / l35vtquz;
+p4ugvxiygy := m37sl - t86kljo;
+l35vtquz := m37sl - m37sl;
+d3hphrpmazph := FALSE;
+e39xvmoa := l35vtquz + 44.289557;
+end
+else
+begin
+if  (t51shd < p4ugvxiygy) or (r37pmgma = p58oraznavcp) or (e21qlzkeo >= e21qlzkeo) or j35aoyvfreodw and (f92knjkvqpmd = c52mflxtrap) then
+begin
+t86kljo := SubFunc2(z68odrduzszho, l89vfdf);
+n84a := SubFunc4(e21qlzkeo, r95xv, n73tnazwsum);
+e39xvmoa := SubFunc4(e21qlzkeo, l35vtquz, f92knjkvqpmd);
+r37pmgma := 'u';
+e80xccrjgd := SubFunc3(y90yim, y90yim);
+z99cmaiz := SubFunc4(n84a, p4ugvxiygy, p58oraznavcp);
+end
+else if  (o58tyh <= e21qlzkeo) or (l89vfdf <= m37sl) or (l35vtquz = n84a) and (o58tyh <= o58tyh) or (p58oraznavcp = y90yim) or (f92knjkvqpmd = y90yim) and (e21qlzkeo >= g19vrdgxxpfcv) and (p4ugvxiygy >= m37sl) then
+begin
+e21qlzkeo := m37sl * e21qlzkeo;
+e21qlzkeo := r95xv / 48;
+g19vrdgxxpfcv := z99cmaiz / m37sl;
+z99cmaiz := o58tyh - 2;
+p4ugvxiygy := e21qlzkeo * 4.499955;
+l89vfdf := 94;
+d99bsl := l89vfdf / 91.669083;
+p58oraznavcp := 'x';
+z68odrduzszho := FALSE;
+end
+else if  (o58tyh >= l89vfdf) or (p55ugoch = f92knjkvqpmd) and j35aoyvfreodw and s70oevaz or (m37sl = m37sl) then
+begin
+j35aoyvfreodw := FALSE;
+t51shd := e21qlzkeo / e39xvmoa;
+p55ugoch := SubFunc3(r37pmgma, c52mflxtrap);
+n84a := e39xvmoa - n84a;
+p4ugvxiygy := t86kljo + 14.939851;
+r37pmgma := SubFunc1(c52mflxtrap, e80xccrjgd, r37pmgma);
+end
+else
+begin
+e39xvmoa := d99bsl * p4ugvxiygy;
+e21qlzkeo := 92.289077;
+e39xvmoa := t86kljo - 80;
+y90yim := SubFunc3(y90yim, f92knjkvqpmd);
+m37sl := 25;
+r95xv := SubFunc4(e39xvmoa, e39xvmoa, f92knjkvqpmd);
+p4ugvxiygy := 46.219538;
+d99bsl := v26ahjls - l35vtquz;
+f92knjkvqpmd := 'k';
+end;
+end;
+end;
+if  (f92knjkvqpmd = e80xccrjgd) and (p58oraznavcp = p55ugoch) and (v26ahjls <> e39xvmoa) and (p4ugvxiygy < p4ugvxiygy) or (e39xvmoa < g19vrdgxxpfcv) and (t86kljo > d99bsl) and (t86kljo = l89vfdf) or (f92knjkvqpmd = n73tnazwsum) then
+begin
+p4ugvxiygy := 65.159348;
+e39xvmoa := d99bsl + 72.749273;
+p58oraznavcp := SubFunc3(n73tnazwsum, p58oraznavcp);
+l35vtquz := SubFunc4(z99cmaiz, d99bsl, f92knjkvqpmd);
+l89vfdf := SubFunc2(y9bfvg, o58tyh);
+t51shd := p4ugvxiygy * 3.539965;
+y90yim := 'Y';
+v26ahjls := SubFunc2(z68odrduzszho, m37sl);
+y90yim := SubFunc1(r37pmgma, r37pmgma, e80xccrjgd);
+end
+else if  (n84a = g19vrdgxxpfcv) or (g19vrdgxxpfcv > n84a) or (t86kljo <= e21qlzkeo) or (t86kljo > p4ugvxiygy) or (e21qlzkeo = n84a) and y9bfvg or (l35vtquz <> p4ugvxiygy) and (d99bsl = g19vrdgxxpfcv) or (y90yim = e80xccrjgd) then
+begin
+m37sl := 23;
+e21qlzkeo := o58tyh * 66.789332;
+z99cmaiz := 3.399966;
+end
+else if  (v26ahjls <= z99cmaiz) or (m37sl > d99bsl) or (r95xv > r95xv) or (e21qlzkeo > l35vtquz) and (w2bjzjvwc = p58oraznavcp) and (n73tnazwsum = c52mflxtrap) and j35aoyvfreodw then
+begin
+l35vtquz := o58tyh - v26ahjls;
+o58tyh := 82;
+e39xvmoa := l89vfdf - g19vrdgxxpfcv;
+y90yim := 'x';
+n84a := v26ahjls / e21qlzkeo;
+end
+else if  (t86kljo > l89vfdf) and (r95xv > p4ugvxiygy) or (r37pmgma = w2bjzjvwc) or (v26ahjls < m37sl) or (t86kljo = g19vrdgxxpfcv) then
+begin
+e39xvmoa := o58tyh / z99cmaiz;
+j35aoyvfreodw := TRUE;
+d99bsl := l89vfdf - 62.239378;
+y90yim := SubFunc3(f92knjkvqpmd, n73tnazwsum);
+z99cmaiz := SubFunc4(l35vtquz, r95xv, p58oraznavcp);
+n84a := p4ugvxiygy + 33.709663;
+p4ugvxiygy := t51shd + 51.729483;
+p55ugoch := SubFunc3(p58oraznavcp, y90yim);
+p55ugoch := 'm';
+r95xv := SubFunc4(l35vtquz, e39xvmoa, y90yim);
+end
+else if  (e39xvmoa > m37sl) and (v26ahjls <= l89vfdf) or (e21qlzkeo >= n84a) and d3hphrpmazph and (o58tyh <> l89vfdf) or (g19vrdgxxpfcv >= d99bsl) or (v26ahjls < o58tyh) then
+begin
+t51shd := o58tyh / 38.979610;
+t86kljo := 78;
+r37pmgma := SubFunc1(w2bjzjvwc, c52mflxtrap, e80xccrjgd);
+p4ugvxiygy := g19vrdgxxpfcv + e39xvmoa;
+n73tnazwsum := 'W';
+p4ugvxiygy := SubFunc4(p4ugvxiygy, e39xvmoa, n73tnazwsum);
+f92knjkvqpmd := SubFunc1(w2bjzjvwc, w2bjzjvwc, r37pmgma);
+end
+else
+begin
+p4ugvxiygy := n84a + l89vfdf;
+c52mflxtrap := SubFunc3(y90yim, f92knjkvqpmd);
+d99bsl := l89vfdf * t51shd;
+r37pmgma := SubFunc3(y90yim, p55ugoch);
+t51shd := e21qlzkeo - m37sl;
+c52mflxtrap := 'p';
 end;
 //---------------start print---------------
-writeln (y33kleqaplp);
-writeln ('73');
-writeln (y47z);
-writeln ('Y');
-writeln (q20r);
-writeln (g72jio);
-writeln (j49of);
-writeln (l21uh);
-writeln (o48d);
-writeln ('q');
-writeln (d44vjtvyvi);
-writeln (t76ivbncuooz);
-writeln (s44wdi);
-writeln (i26xb);
-writeln (l21uh);
-writeln (s20xpeok);
-writeln (y33kleqaplp);
-writeln (s37ayaltkbqn);
-writeln (q15a);
-writeln (o40plswjhshlpz);
-writeln (d44vjtvyvi);
+writeln (y9bfvg);
+writeln (n84a);
+writeln (r95xv);
+writeln (y9bfvg);
+writeln (c52mflxtrap);
+writeln ('I');
+writeln (n84a);
+writeln (r37pmgma);
+writeln (r37pmgma);
+writeln (p4ugvxiygy);
+writeln (e39xvmoa);
+writeln (s70oevaz);
+writeln (n84a);
+writeln (l89vfdf);
+writeln (n73tnazwsum);
+writeln (g19vrdgxxpfcv);
+writeln (r37pmgma);
+writeln (o58tyh);
 end.

@@ -9,11 +9,14 @@ print("Compiling test.c ...")
 subprocess.run("gcc -o output/c_test input/test.c", shell=True)
 print("Compiling test.pas ...")
 subprocess.run("fpc -gw3 -ooutput/pas_test input/test.pas", shell=True, capture_output=True)
+print("Running C  ...")
 c_out = subprocess.run("output/c_test", capture_output=True, text=True)
+print("Running Pascal ...")
 pas_out = subprocess.run("output/pas_test", capture_output=True, text=True)
 if pas_out.stderr.startswith("Runtime error"):
-    print(pas_out.stderr)
-    quit()
+    msg = "Oops! You unluckily got a"+ '\033[91m'+" DIV_ZERO" + '\033[0m' +" error in Pascal code!"
+    raise ValueError(msg)
+print("Comparing output ...")
 line_count, true_count = 0, 0
 for c_line, pas_line in zip(c_out.stdout.splitlines(), pas_out.stdout.splitlines()):
     line_count += 1

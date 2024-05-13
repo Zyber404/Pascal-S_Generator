@@ -11,7 +11,7 @@
 
 #define MAX_NAME_LENGTH 10
 #define RANDOM_TYPE 10
-#define INT_TYPE 0
+#define INDEX_INT 4
 
 class VariableInfo {
 public:
@@ -34,6 +34,7 @@ private:
     ValueGenerator nameGenerator;
 public:
     std::map<std::string, VariableInfo> variables;
+    std::map<std::string, VariableInfo> index_variables;
     std::map<std::string, VariableFunc> variablefuns;
     VariableDeclarationManager();
     std::string declareVariable(int input, int typeIndex=RANDOM_TYPE); // 输入参数决定变量级别
