@@ -1,7 +1,10 @@
 # PASCAL-S generator & test script
-This project based on BUPT SCS *Compilation Principles and Techniques Course Design*.
+## Introduction
+- This project based on BUPT SCS *Compilation Principles and Techniques Course Design*.
 
-This is a simple project to generate Pascal-S code, and if you have a Pascal-S to C compiler, this are two Python scripts to compile and compare the result between the generated Pascal-S code and  compiled C code.
+- This is a simple project to generate Pascal-S code, and if you have a Pascal-S to C compiler, this are two Python scripts to compile and compare the result between the generated Pascal-S code and  compiled C code.
+
+- If this project helps you, please give me a ⭐, which will be a great encouragement to me!
 
 ## Features
 1. Support assignment, baisc calculation, nested if-else, nested for, function call ( Only functions with depth ***1*** are supported, just like C ) and std-out statement.
